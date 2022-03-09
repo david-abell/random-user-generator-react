@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "name": {
+    "title": "Ms",
+    "first": "Crystal",
+    "last": "Williamson"
+  },
+  "location": {
+    "street": {
+      "number": 2397,
+      "name": "Ash Dr"
+    },
+    "city": "Mackay",
+    "state": "New South Wales",
+    "country": "Australia",
+    "postcode": 1828,
+    "coordinates": {
+      "latitude": "-82.1981",
+      "longitude": "125.5732"
+    },
+    "timezone": {
+      "offset": "-11:00",
+      "description": "Midway Island, Samoa"
+    }
+  },
+  "email": "crystal.williamson@example.com",
+  "login": {
+    "uuid": "3ff13083-ab87-432d-bafa-ad4f592a2b37",
+    "username": "purpleostrich885",
+    "password": "weezer",
+    "salt": "SFBpk2TM",
+    "md5": "a5d8cb59943b38c7b9803a82330732b8",
+    "sha1": "4125aec8a91bc781c17337bfd2db90723cbbc0a2",
+    "sha256": "78cd3acf394eb20bcf8a8dcd41b7c4c07361f998cd26abcca460e206223560be"
+  },
+  "dob": {
+    "date": "1960-01-15T05:58:00.266Z",
+    "age": 62
+  },
+  "registered": {
+    "date": "2019-08-09T20:49:08.714Z",
+    "age": 3
+  },
+  "phone": "05-1617-2456",
+  "cell": "0423-667-836",
+  "id": {
+    "name": "TFN",
+    "value": "758067621"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/women/35.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/35.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/35.jpg"
+  },
+  "nat": "AU"
+}

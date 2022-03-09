@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+## React random user generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Displays a random user bio pulled from the [random user generator api](https://randomuser.me)
+
+## Why I built this
+
+My first project with React. An exercise to showcase practical front end skills of api connection and async data processing.
+
+## Project design goal
+
+Use React to generate a random user profile from random user generator Json.
+
+- The UI should initially show a 'get user' button which, when clicked, fetches random user data, parses the response json, saves it to a state variable, and displays a card from the resulting data.
+
+- Below the card should be two buttons. A '`get new user`' / '`next user`' button, depending on whether the current displayed user is the most recently fetched user and '`previous user`'.
+
+- When clicked, the '`get new user`' button should fetch a new user, set it as the most recent, and display it.
+
+- There should also be a previous user that is only clickable after a second user is displayed. When clicked this button should display the previous user. The second button displayed should also change to '`next user`'.
+
+- The '`next user`' button should be visible only when the user displayed is not the most recently fetched.
+
+## Source
+
+Data is fetched from the [random user generator api](https://randomuser.me)
 
 ## Available Scripts
 
@@ -31,7 +53,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
@@ -67,4 +89,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
