@@ -1,6 +1,7 @@
 ## React random user generator
 
 Displays a random user bio pulled from the [random user generator api](https://randomuser.me)
+Deployed at [https://unruffled-agnesi-16d28d.netlify.app/](https://unruffled-agnesi-16d28d.netlify.app/)
 
 ## Why I built this
 
